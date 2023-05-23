@@ -1,0 +1,35 @@
+body {
+    background: white;
+    margin: ;
+    padding: ;
+
+}
+.header{
+    background-color: #F15A29;
+}
+h1{
+    color: black;
+}
+.table, tr, td {
+    padding: 5px;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+.column1 {
+    width: 450px;
+    float: left;
+}
+.column2 {
+    width: 450px;
+    float: left;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
