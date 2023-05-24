@@ -1,16 +1,37 @@
 body {
-    background: white;
-    margin: ;
-    padding: ;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding:
 
 }
-.header{
+
+.header {
     background-color: #F15A29;
+    background-image: url('../Project3/assets/assets/backgrounds/landing.jpg');
+    background-blend-mode: lighten;
 }
-h1{
-    color: black;
+
+h1 {
+    color: white;
+    font-family: Cambria;
+    text-align: center;
+    padding-bottom: 100px;
+    font-weight: lighter;
 }
-.table, tr, td {
+
+#logo {
+    display: flex;
+    margin: 0px;
+    padding-top: 50px;
+    padding-left: 520px;
+    
+}
+
+.table,
+tr,
+td {
     padding: 5px;
     border: 1px solid black;
     border-collapse: collapse;
@@ -21,15 +42,27 @@ h1{
     width: 960px;
     margin: 0 auto;
 }
+
 .column1 {
     width: 450px;
     float: left;
 }
+
 .column2 {
     width: 450px;
     float: left;
 }
-img{
+
+img {
     width: 300px;
     height: 300px;
+    
+
+}
+.photos{
+    width: 300px;
+    height: 300px;
+    border: 5px solid white;
+    padding: 10px;
+    
 }
